@@ -13,7 +13,13 @@ const server =
       res.write('<body>')
       res.write('Content \n')
       res.write('More content \n')
-      res.write('Hello World')    
+      res.write('<table>')
+      res.write('<tr><th>LOCATION</th><th>NO.OF.HOURS</th><th>AMOUNT TO PAY</th></tr>')  
+      res.write('<tr><td>San Francisco</td><td>10</td><td>600</td></tr>')  
+      res.write('<tr><td>Dallas</td><td>12</td><td>400</td></tr>')
+      res.write('<tr><td>Las Vegas</td><td>14</td><td>500</td></tr>')
+      res.write('<tr><td>New York</td><td>16</td><td>700</td></tr>')
+      res.write('</table>')
       res.end('</body></html>')
       //Close the response
     }                           
