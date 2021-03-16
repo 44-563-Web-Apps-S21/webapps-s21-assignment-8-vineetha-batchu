@@ -27,7 +27,7 @@ const server =
           res.statusCode = 200      //code for OK
           res.setHeader('Content-Type', 'text/plain') 
           res.write("My Math function is sqrt() ")
-          res.write( `  cuberoot of ${x} is  ${r}   `)
+          res.write( `  squareroot of ${x} is  ${r}   `)
           res.end();
         
       } else {
