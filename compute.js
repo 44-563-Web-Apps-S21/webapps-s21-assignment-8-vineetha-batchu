@@ -19,7 +19,7 @@ const server =
 
       if (req.method === 'GET' ) {
        
-          console.log("Look for query parameter data: " + search_params.get("data"))
+          // console.log("Look for query parameter data: " + search_params.get("data"))
           let x=search_params.get("x")
           let r=Math.sqrt(x)
 
